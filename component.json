@@ -1,6 +1,6 @@
 {
   "name": "lil-uuid",
-  "description": "UUID v4 generator",
+  "description": "UUID v4 generator (RFC4122 compliant)",
   "version": "0.1.0",
   "license": "MIT",
   "repository": "lil-js/uuid",
@@ -16,6 +16,11 @@
     "tiny",
     "micro",
     "uuid",
-    "generator"
+    "generator",
+    "v4",
+    "validator",
+    "unique",
+    "identifier",
+    "user"
   ]
 }

@@ -2,7 +2,7 @@
 
 <img align="center" height="150" src="http://lil-js.github.io/img/liljs-logo.png" />
 
-UUID v4 generator
+UUID v4 generator (RFC4122 compliant)
 
 <table>
 <tr>
@@ -49,19 +49,31 @@ Or loading the script remotely
 You could fetch de module via `require()` if it's available.
 Otherwise, global fallback will be used, exposed via `lil.uuid`
 
-##### Sample GET request
+##### Generate a uuid
 ```js
 lil.uuid()
 // -> f47ac10b-58cc-4372-a567-0e02b2c3d479
 ```
+
+##### uuid validator
+```js
+lil.isUUID('f47ac10b-58cc-4372-a567-0e02b2c3d479') // -> true
+```
+
 ## API
 
 #### uuid()
 Return: `string`
 
-Generator a random UUID
+Generate a random UUID
 
-#### http.VERSION
+#### isUUID(str, [version])
+Return: `boolean`
+
+Check if a given `string` has a valid UUID format.
+It supports multiple version (3, 4 and 5)
+
+#### uuid.VERSION
 
 ## Contributing
 

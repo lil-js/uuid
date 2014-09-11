@@ -12,6 +12,9 @@
       mocha.ui('bdd')
       mocha.reporter('html')
       expect = chai.expect
+      require = function (module) {
+        return module === 'chai' ? chai : lil.uuid
+      }
     </script>
     <script src="../uuid.js"></script>
     <script src="uuid.js"></script>

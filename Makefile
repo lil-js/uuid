@@ -30,7 +30,8 @@ uglify:
 	$(UGLIFYJS) uuid.js --mangle --preamble $(BANNER) --source-map uuid.min.js.map > uuid.min.js
 
 mocha:
-	bash ./test/run.sh 8888
+	$(MOCHA_PHANTOM) --reporter spec --ui bdd test/runner.html
+	$(MOCHA) --reporter spec --ui bdd
 
 loc:
 	wc -l uuid.js
