@@ -1,4 +1,4 @@
-# [lil](http://lil-js.github.io)'-uuid [![Build Status](https://api.travis-ci.org/lil-js/http.svg?branch=master)][travis] [![Stories in Ready](https://badge.waffle.io/lil-js/http.png?label=ready&title=Ready)](https://waffle.io/lil-js/http) [![Code Climate](https://codeclimate.com/github/lil-js/uri/badges/gpa.svg)](https://codeclimate.com/github/lil-js/http) [![Gitter chat](https://badges.gitter.im/lil-js/http.png)](https://gitter.im/lil-js/http)
+# [lil](http://lil-js.github.io)'-uuid [![Build Status](https://api.travis-ci.org/lil-js/uuid.svg?branch=master)][travis] [![Stories in Ready](https://badge.waffle.io/lil-js/uuid.png?label=ready&title=Ready)](https://waffle.io/lil-js/uuid) [![Code Climate](https://codeclimate.com/github/lil-js/uuid/badges/gpa.svg)](https://codeclimate.com/github/lil-js/uuid) [![Gitter chat](https://badges.gitter.im/lil-js/all.png)](https://gitter.im/lil-js/all)
 
 <img align="center" height="150" src="http://lil-js.github.io/img/liljs-logo.png" />
 
@@ -88,7 +88,7 @@ Only [node.js](http://nodejs.org) is required for development
 
 Clone the repository
 ```bash
-$ git clone https://github.com/lil-js/http.git && cd http
+$ git clone https://github.com/lil-js/uuid.git && cd uuid
 ```
 
 Install dependencies
@@ -110,5 +110,4 @@ $ make test
 
 [MIT](http://opensource.org/licenses/MIT) © Tomas Aparicio
 
-[withcredentials]: https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS#Requests_with_credentials
-[travis]: http://travis-ci.org/lil-js/http
+[travis]: http://travis-ci.org/lil-js/uuid
