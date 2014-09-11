@@ -2,7 +2,7 @@
 
 <img align="center" height="150" src="http://lil-js.github.io/img/liljs-logo.png" />
 
-UUID v4 generator (RFC4122 compliant)
+UUID v4 generator and validator (RFC4122 compliant)
 
 <table>
 <tr>
