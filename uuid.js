@@ -36,6 +36,7 @@
 
   uuid.isUUID = isUUID
   uuid.VERSION = VERSION
+
   exports.uuid = uuid
   exports.isUUID = isUUID
 }))
