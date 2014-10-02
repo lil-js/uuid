@@ -49,13 +49,13 @@ Or loading the script remotely
 You could fetch de module via `require()` if it's available.
 Otherwise, global fallback will be used, exposed via `lil.uuid`
 
-##### Generate a uuid
+##### Generate an UUID v4 schema
 ```js
 lil.uuid()
 // -> f47ac10b-58cc-4372-a567-0e02b2c3d479
 ```
 
-##### uuid validator
+##### Validate an UUID schema (it support multiple versions)
 ```js
 lil.isUUID('f47ac10b-58cc-4372-a567-0e02b2c3d479')
 // -> true
