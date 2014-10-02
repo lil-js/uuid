@@ -30,7 +30,7 @@
   }
 
   function isUUID(str, version) {
-    var pattern = uuidRegex[version ? String(version) : 'all']
+    var pattern = uuidRegex[version ? version : 'all']
     return pattern && pattern.test(str)
   }
 
