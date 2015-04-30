@@ -9,7 +9,7 @@ UUID v4 generator and validator (RFC4122 compliant)
 <td><b>Name</b></td><td>uuid</td>
 </tr>
 <tr>
-<td><b>Version</b></td><td>0.1.0</td>
+<td><b>Version</b></td><td>0.1.1</td>
 </tr>
 <tr>
 <td><b>Size</b></td><td>1 KB / >1 KB (gzipped)</td>
