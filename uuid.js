@@ -11,7 +11,7 @@
     factory((root.lil = root.lil || {}))
   }
 }(this, function (exports) {
-  var VERSION = '0.1.0'
+  var VERSION = '0.1.1'
   var uuidRegex = {
     '3': /^[0-9A-F]{8}-[0-9A-F]{4}-3[0-9A-F]{3}-[0-9A-F]{4}-[0-9A-F]{12}$/i,
     '4': /^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i,
