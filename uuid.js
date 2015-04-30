@@ -39,4 +39,4 @@
 
   exports.uuid = uuid
   exports.isUUID = isUUID
-}))
+}));
