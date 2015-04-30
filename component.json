@@ -1,7 +1,7 @@
 {
   "name": "lil-uuid",
   "description": "UUID v4 generator and validator (RFC4122 compliant)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": "lil-js/uuid",
   "author": "Tomas Aparicio",
