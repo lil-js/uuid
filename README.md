@@ -21,6 +21,11 @@ UUID v4 generator and validator (RFC4122 compliant)
 
 ## Installation
 
+Via [npm](https://npmjs.org)
+```bash
+npm install lil-uuid
+```
+
 Via [Bower](http://bower.io)
 ```bash
 bower install lil-uuid
